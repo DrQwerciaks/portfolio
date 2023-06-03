@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Portfolio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="src/style.css" />
+    <link rel="stylesheet" href="src/mobile-style.css" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </button>
+    <script>
+      var mybutton = document.getElementById("myBtn");
+      window.onscroll = function () {
+        scrollFunction();
+      };
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 300 ||
+          document.documentElement.scrollTop > 300
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      function topFunction() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        document.documentElement.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+
+    <header id="main-header">
+      <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#">
+            <i class="fas fa-circle-notch"></i> Portfolio😁
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+            <i class="fas fa-align-right text-light"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mr-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#main-header"
+                  >HOME <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#main-about">ABOUT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="container text-left header-ctr">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-sm-12 header-text">
+            <h2>
+              #
+              <a
+                class="typewrite"
+                data-period="2000"
+                data-type='[ "Witaj na swoim Portfolio.", "Mam nadzeiej żeci się przyda.", "Pozdrawoam !DrQwerciak#2137." ]'>
+                <!--Tutaj Po wyżej możesz zmienić tekst kóry posiada animacje-->
+                <span class="wrap"></span>
+              </a>
+            </h2>
+
+            <h1>Hej praca wykonana przez !DrQwerciak#2137</h1>
+            <h5>
+              jeżeli posiadasz jakieś pytania zparaszam na https://discord.gg/PwmG4epCvq bądź pisz pv !DrQwerciak#2137.
+            </h5>
+
+            <div class="text-left">
+              <a
+                class="button btn btn-light px-5 py-1.5 sayhi"
+                href="mailto:Twójmeil@gmail.com?Subject=Twójtemat"
+                target="_top"
+                >Sed Mail !</a
+              >
+              <div>
+            </div>
+              <!--<div class="text-left">
+                <a
+                  class="button btn btn-light px-5 py-1.5 sayhi"
+                  href="https://discord.gg/PwmG4epCvq"
+                  target="_top"
+                  >Discord!</a
+                >-->
+
+              <!--Tutaj możesz przekierować kogoś na maila żeby wysłał ci wiadomość lub żeby wszedł na discorda, jeżeli chcesz a by wszedł na discorda usuń Wykrzykinik i 2x- z porzdu i z tyłu. -->
+            </div>
+            <br />
+          </div>
+          <div class="col-md-5 col-sm-12 main-img h-25">
+            <img src="assets/me.png" alt="mac" />
+          </div>
+          <!--Aby Zmienić zdj musiś dodać je do folderu assets, wtedy tutaj powyżej wpisujesz tak jak jest assets/twojanazwa.png lub jpg zależyco masz.-->
+    </header>
+<!--W 116 linijce CCS możesz zmienić zdj z Qweciak dev na swoje z taką samą zasadą jak wyżej.-->
+    <main id="main-screen">
+      <section class="section-1">
+        <div class="screen">
+          <div class="content-sec">
+            <p>
+              jeżeli posiadasz jakieś pytania zparaszam na https://discord.gg/PwmG4epCvq bądź pisz pv !DrQwerciak#2137.
+            </p>
+            <p class="text-right">- DrQwerciak#2137</p>
+          </div>
+        </div>
+        <div class="screen">
+          <div class="content-sec">
+            <p>
+              jeżeli posiadasz jakieś pytania zparaszam na https://discord.gg/PwmG4epCvq bądź pisz pv !DrQwerciak#2137.
+            </p>
+            <p class="text-right">- DrQwerciak#2137</p>
+          </div>
+        </div>
+        <div class="screen">
+          <div class="content-sec">
+            <p>
+              jeżeli posiadasz jakieś pytania zparaszam na https://discord.gg/PwmG4epCvq bądź pisz pv !DrQwerciak#2137.
+            </p>
+            <p class="text-right">- DrQwerciak#2137</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="main-about" class="section-2">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <div class="pray">
+                <img src="assets/furry-it.png" alt="furry-it" />
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="panel text-left">
+                <h2>O mnie</h2>
+                <h3>DrQwerciak#2137</h3>
+                <h4>Technik informatyk w Teb Technikum</h4>
+                <p>
+                  Pozwól, że przedstawię Cię w skrócie: Jestem Furasem, pełnym pasji do informatyki i nieustannego dążenia do nauki nowych rzeczy. Moja futrzasta natura harmonijnie łączy się z kodowaniem, tworząc jedyny w swoim rodzaju zestaw umiejętności. Jako byt cyfrowo-zwierzęcy, eksploruję świat technologii, odkrywam nowe algorytmy i rozwijam się na każdym kroku. Jestem nie tylko strażnikiem kodu, ale również zapalonym poszukiwaczem wiedzy, gotowym odkrywać nieznane obszary informatyki.
+                </p>
+                <h4>SKILLS</h4>
+                <p>
+                  Javascript, HTML5, CSS3,<br />
+                  Nodejs, MySQL,<br />
+                  Github, VSCode, Mozilla DevTools, Linux
+                </p>
+
+                <h6>Jestem Wszędzie, <b>@!DrQwerciak#2137</b></h6>
+                <br />
+
+                <a class="btn btn-light px-3 py-1.5" href="https://me.drqwerciak.pl/"
+                  >O mnie <3</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-3 container-fluid p-0">
+        <div class="container-fluid text-center">
+          <div
+            class="numbers d-flex flex-md-row flex-wrap justify-content-center"
+          >
+            <div class="rect">
+              <h1>2275</h1>
+              <a href="https://www.facebook.com/drqwercik/"
+                ><p><i class="fab fa-facebook"></i> facebook</p></a
+              >
+            </div>
+            <div class="rect">
+              <h1>4</h1>
+              <a href="https://github.com/DrQwerciaks" target="_blank"
+                ><p><i class="fab fa-github"></i> Github</p></a
+              >
+            </div>
+            <div class="rect">
+              <h1>85</h1>
+              <a href="https://instagram.com/drqwerciak/" target="_blank"
+                ><p><i class="fab fa-instagram"></i> Instagram</p></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="main-project" class="section-4">
+        <div class="container text-center">
+          <h1 class="text-dark">Projekty</h1>
+          <p class="text-secondary">Nowe Projekty będą pojawiać się na GitHubie: <a href="https://github.com/DrQwerciaks">drqwerciak</a></p>
+        </div>
+        <div class="cards">
+          <div class="d-flex flex-md-row flex-wrap justify-content-center">
+            <div
+              class="card mr-2 d-inline-block shadow-lg"
+              style="width: 18rem"
+            >
+              <img src="assets/1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h4 class="card-title">Portfolio</h4>
+                <p class="card-text">
+                  drqwerciak
+                </p>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://discord.gg/PwmG4epCvq"
+                  target="_blank"
+                  class="card-link"
+                  >Discord</a
+                >
+              </div>
+            </div>
+            <div
+              class="card mr-2 d-inline-block shadow-lg"
+              style="width: 18rem"
+            >
+              <img
+                src="assets/1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title">Portfolio</h4>
+                <p class="card-text">drqwerciak</p>
+              </div>
+              <div class="card-body">
+                <a href="https://discord.gg/PwmG4epCvq" class="card-link">Discord</a>
+              </div>
+            </div>
+            <div
+              class="card mr-2 d-inline-block shadow-lg"
+              style="width: 18rem"
+            >
+              <img
+                src="assets/1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title">Portfolio</h4>
+                <p class="card-text">drqwerciak</p>
+              </div>
+              <div class="card-body">
+                <a href="https://discord.gg/PwmG4epCvq" class="card-link">Discord</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <footer>
+      <div class="container-fluid p-0">
+        <div class="row text-left">
+          <div class="col-md-9">
+            <h4 class="text-light">Odemnie Dla Was</h4>
+            <p class="text-muted">Masz pomysł na kolejny Projekt Pisz <3</p>
+            <p class="gmail">@ help@drqwerciak.pl</p>
+          </div>
+          <div class="col-md-3 follow">
+            <h4 class="text-light">Follow Me</h4>
+            <p class="text-muted">Masz moje :</p>
+            <div class="column text-light">
+              <a href="https://www.github.com/drqwerciak" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://www.facebook.com/drqwerciak" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/drqwerciak/"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.twitter.com/drqwerciak" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pt-5 text-center">
+        <p class="pt-2 text-muted">
+          <i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by
+          <a class="sp" href="https://www.github.com/drqwerciak"
+            ><span> DrQwerciak#2137 </span></a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/main.js"></script>
+  </body>
+</html>
